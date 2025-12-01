@@ -1,0 +1,113 @@
+{
+    "name": "InputMaster",
+    "maps": [
+        {
+            "name": "DPadLeft",
+            "id": "7b4b851b-7e74-4126-bcef-be0af68a440b",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "dcdcf41a-5e77-4f7b-8224-43d2a4757960",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d07d3712-daf0-4b81-b413-62bc9bbc7388",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBox Control Scheme",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "631613c3-712e-4122-968e-1852f55ddc25",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBox Control Scheme",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "DPadRight",
+            "id": "a028dc2a-7324-41bd-ae77-abd9d61b580e",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "f45d8282-ac4c-451b-a08f-4cd2613b9bca",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1c63dbca-cffc-4b74-a775-0cc8796d6796",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBox Control Scheme",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "DPadUp",
+            "id": "4835b11c-5f7c-446b-8be0-dbf7fdbb066d",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "81fb6d23-dc72-43d0-8e9f-13e808b0e921",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ec3fb757-0da3-42e2-aa5e-47bd305885da",
+                    "path": "<Gamepad>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XBox Control Scheme",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "XBox Control Scheme",
+            "bindingGroup": "XBox Control Scheme",
+            "devices": [
+                {
+                    "devicePath": "<XInputController>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
